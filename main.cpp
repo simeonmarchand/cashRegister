@@ -16,7 +16,7 @@ int main() {
     float temp;
 
     //We are outputting the headers
-    std::cout << "Item Cost" << "Item Tax" << "Item Subtotal" << endl;
+    std::cout << "Item Cost  " << "Item Tax  " << "Item Subtotal  " << endl;
     std::cout << "-------------------------------------------" << endl;
 
     //Here we are calculating the totals for the variables created above
@@ -27,7 +27,7 @@ int main() {
         temp = aar[i] * t + aar[i];
 
         //itemized section of the program
-        std::cout << aar[i] << " " << aar[i] * t << " " << temp << endl;
+        std::cout << aar[i] << "      " << aar[i] * t << "      " << temp << endl;
     }
     //Here is the final output of the calculations
     std::cout << "----------------------------------------\n";
