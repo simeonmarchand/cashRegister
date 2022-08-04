@@ -5,7 +5,7 @@ int main() {
     //Here we are creating the user input 5 times that is being held in 'i'
     float t = 7.0 / 100;
     float aar[5];
-    std::cout << "Enter the input numbers one at a time" << endl;
+    std::cout << "Enter 5 input numbers one at a time" << endl;
     for (int i = 0; i < 5; i++){
         std::cin >> aar[i];
     }
