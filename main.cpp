@@ -9,7 +9,6 @@ int main() {
     for (int i = 0; i < 5; i++){
         std::cin >> aar[i];
     }
-
     // here we are making variables for the subtotal, item total, tax total, and the variable temp to hold these
     float subTotal = 0.0, itemTotal = 0.0;
     float taxTotal = 0.0;
